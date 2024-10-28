@@ -50,6 +50,7 @@ Color:
             After use this you must have to call this function also `cleardevice()` if you don't use this than background color will not visible.
 
     So, this was some color functions which is used in graphics library
+    ( Note: this is part 1 so part 2 is also available check in my repo )
 
     I hope you understand!
 */
