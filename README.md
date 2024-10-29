@@ -1,4 +1,4 @@
-Hello guys, Ho are you!
+Hello guys, How are you!
 
 I hope you all have fun 
 
