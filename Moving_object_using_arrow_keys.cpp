@@ -16,16 +16,16 @@ int main()
         cleardevice();
         circle(x, y, 50); // Circle has 50 radius
         if(GetAsyncKeyState(VK_RIGHT)) // Checks that Right Arrow key is pressed or not
-            x += 10;
+            x += 10;                   // x position incrementing by 10
 
         if(GetAsyncKeyState(VK_LEFT)) // Checks that Left Arrow key is pressed or not
-            x -= 10;
+            x -= 10;                  // x position decrementing by 10  
 
         if(GetAsyncKeyState(VK_UP)) // Checks that Up Arrow key is pressed or not
-            y -= 10;
+            y -= 10;                // y position decrementing by 10
 
         if(GetAsyncKeyState(VK_DOWN)) // Checks that Down Arrow key is pressed or not
-            y += 10;
+            y += 10;                  // y position incrementing by 10
 
         if(GetAsyncKeyState(VK_RETURN)) // Checks that Enter is pressed 
             break;                      // Exiting from loop
