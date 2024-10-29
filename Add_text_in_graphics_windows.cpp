@@ -3,7 +3,7 @@
 
 int main()
 {
-    initwindow(600, 500, "Inserting image"); // Setting windows size and name
+    initwindow(600, 500, "Add text"); // Setting windows size and name
     
     settextstyle(SCRIPT_FONT, HORIZ_DIR, 8);
     outtextxy(50, 50, "How are you!"); // Providing text position where generate text.
