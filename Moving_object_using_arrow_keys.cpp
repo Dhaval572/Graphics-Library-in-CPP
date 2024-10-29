@@ -10,7 +10,7 @@ int main()
     
     int x = 300, y = 300;   // Circle's x and y coordinates
 
-    // Loop for move object like game loop 
+    // Infinite loop for do task and it will stop when breck statment is executed 
     while(true)
     {
         cleardevice();
