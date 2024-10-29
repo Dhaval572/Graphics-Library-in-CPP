@@ -8,4 +8,4 @@ So, if you are interested than visit this repository
 
 And i will add updates in this repository.
 
-so, visit it whenever you want and whenever you free😁.
+So, visit it whenever you want and whenever you free😁.
