@@ -29,10 +29,12 @@ int main()
     // Defining bullet positions
     int bulletX1 = 320, bulletY1 = 340, bulletX2 = 330, bulletY2 = 340;
 
+    // Provide message to user
+    outtextxy(0,0, "Press space key to see firing animation: ");
+
     // Infinite loop which can stop when breck statement execute
     while (true)
     {
-
         if (GetAsyncKeyState(VK_SPACE))
         {
             // Move bullet left to right while bullet is not out of the screen
@@ -40,7 +42,7 @@ int main()
             {
                 cleardevice(); // Preparing graphics windows for new graphcs
 
-                // Re-draw man
+                // Re draw man
                 circle(350, 300, 25);     // Head
                 line(350, 325, 350, 350); // Neck
                 line(325, 350, 375, 350); // Hands
@@ -74,6 +76,3 @@ int main()
     closegraph();
     return 0;
 }
-/*
-This project is litterally very tough for beginners 
-*/
