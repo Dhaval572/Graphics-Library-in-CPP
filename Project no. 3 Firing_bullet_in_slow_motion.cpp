@@ -66,7 +66,7 @@ int main()
                 break;
         }
 
-        // To quit from infinite bullet ( Not compalsary but it is best practice)
+        // To quit from infinite bullet ( Not compalsary but it is best practice )
         if (GetAsyncKeyState(VK_ESCAPE))
             break;
 
