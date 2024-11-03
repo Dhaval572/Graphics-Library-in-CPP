@@ -14,6 +14,7 @@ Uses:
 
     Here, is recommanded channel for learn graphics.h in c++
 
+    ( Note: press ctrl + mouse left click in website if you are in vs code ) 
     https://www.youtube.com/watch?v=jcGNtKTTHys&list=PLMclp-q8OPhnBqdI6DAIhsHX6RvVD5nha
 
     This playlist is very very usefull for beginners to learn graphics lib 
