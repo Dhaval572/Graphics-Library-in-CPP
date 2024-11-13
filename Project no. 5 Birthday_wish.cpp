@@ -5,14 +5,15 @@ int main()
 {
     initwindow(600, 500, "Happy Birthday", 150, 50);
 
-    // Third layer
+    // Third layer of cake
     for (int i = 0; i <= 300; i++)
     {
         setcolor(LIGHTMAGENTA);
         line(150 + i, 370, 150 + i, 430);
         delay(10);
     }
-    // Second layer
+
+    // Second layer of cake
     for (int i = 260; i >= 0; i--)
     {
         setcolor(YELLOW);
@@ -20,7 +21,7 @@ int main()
         delay(10);
     }
 
-    // first layer
+    // first layer of cake
     for (int i = 0; i <= 220; i++)
     {
         setcolor(WHITE);
@@ -28,7 +29,7 @@ int main()
         delay(10);
     }
 
-    // candles
+    // Drawing candles
     for (int i = 0; i <= 70; i++)
     {
         setcolor(LIGHTRED);
@@ -38,9 +39,10 @@ int main()
 
         delay(10);
     }
-    setcolor(LIGHTGREEN);
-    settextstyle(1, HORIZ_DIR, 3);
-    outtextxy(140, 50, "Happy Birthday Dear ");
+
+    setcolor(LIGHTGREEN);                       // Setting color of text
+    settextstyle(1, HORIZ_DIR, 3);              // Setting style of text
+    outtextxy(140, 50, "Happy Birthday Dear "); // message to wish for birth-day
 
     getch();
     closegraph();
