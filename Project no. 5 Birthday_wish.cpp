@@ -3,7 +3,7 @@
 
 int main()
 {
-    initwindow(600, 500, "Happy Birthday", 150, 50);
+    initwindow(600, 500, "Happy Birthday");
 
     // Third layer of cake
     for (int i = 0; i <= 300; i++)
