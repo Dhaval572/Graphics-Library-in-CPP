@@ -41,4 +41,12 @@ Explaination to draw rectangle:
 
     x4: The y-coordinate of the bottom side of the rectangle. ( line no. 19 )
 
+	In very simple word we can say that it takes four parameters that is x and y position and width and height
+
+	rectangle(x, y, width, height);
+
+	This is ultimate easy, So i can't made this more easier than it.
+
+	So, i hope you understand everything!
+
 */
