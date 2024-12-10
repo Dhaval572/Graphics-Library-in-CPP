@@ -27,7 +27,7 @@ Color:
         MAGENTA, BROWN, LIGHTGRAY, 
         DARKGRAY, LIGHTBLUE, LIGHTGREEN, 
         LIGHTCYAN, LIGHTRED, LIGHTMEGENTA, 
-        YELLO, WHITE     
+        YELLOW, WHITE     
     };
 
     This all color has own index cause of enum.
