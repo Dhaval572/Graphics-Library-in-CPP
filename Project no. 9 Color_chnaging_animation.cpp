@@ -10,7 +10,10 @@ int setRangeOfRandomNumber(int min, int max)
 
 int main()
 {
-    initwindow(600, 500, "Color changes");
+    int width = GetSystemMetrics(SM_CXSCREEN);
+    int height = GetSystemMetrics(SM_CYSCREEN);
+
+    initwindow(width, height, "Color changes"); 
 
     srand(time(0));
 
