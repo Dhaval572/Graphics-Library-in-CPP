@@ -51,25 +51,28 @@ int main()
                 line(330, 340, 330, 360); // Gun parts
                 line(320, 340, 330, 340); // Gun parts
 
-                // Update bullet position 
-                bulletX1 -= 10; 
+                // Update bullet position
+                bulletX1 -= 10;
                 bulletX2 -= 10;
 
-                // Draw the bullet in its new position 
+                // Draw the bullet in its new position
                 line(bulletX1, bulletY1, bulletX2, bulletY2);
 
                 delay(50); // For controll firing bullet animation
             }
 
             // If bullet go out of screen than output will terminate
-            if(bulletX1 == 0)
-                break;
+            if (bulletX1 == 0)
+                cleardevice();
+
+            setcolor((COLOR(181, 7, 178)));
+            settextstyle(TRIPLEX_FONT, HORIZ_DIR, 6);
+            outtextxy(20, 200, "Animation over!");
         }
 
         // To quit from infinite bullet ( Not compalsary but it is best practice )
         if (GetAsyncKeyState(VK_ESCAPE))
             break;
-
     }
 
     getch();
