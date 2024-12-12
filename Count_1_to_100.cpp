@@ -1,4 +1,4 @@
-// display variable in graphics lib
+// Count 1 to 100 
 #include <graphics.h>
 #include <sstream>
 
@@ -7,7 +7,7 @@ int main()
     initwindow(600, 600, "Count number: ");
 
     int count;
-    for (count = 0; count < 100; count++)
+    for (count = 1; count <= 100; count++)
     {
         setcolor(WHITE); // Setting the color of battery percentage information
         std::stringstream s;
