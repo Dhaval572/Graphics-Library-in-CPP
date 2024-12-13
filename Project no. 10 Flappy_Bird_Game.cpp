@@ -1,8 +1,6 @@
 // Flappy bird Game
 #include <graphics.h>
-#include <stdlib.h>
 #include <time.h>
-#include <windows.h>
 
 #define SCREEN_WIDTH 600
 #define SCREEN_HEIGHT 600
