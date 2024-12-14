@@ -41,7 +41,7 @@ Explaination of drawing shapes in graphics.h:
 
             circle(x_coordinate, y_coordinate, radius);
 
-        here, you have to enter two parameter x coordinate, y coordinate and radius
+        here, you have to enter Three parameter x coordinate, y coordinate and radius
         ( Note: The coordinates are measured in pixels )
 
         Example: circle(300,200,50); ( line no. 15 )
